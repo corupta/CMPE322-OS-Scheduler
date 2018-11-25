@@ -2,14 +2,12 @@
 // Created by corupta on 25.11.2018.
 //
 
-#include <string.h>
 #include "process.h"
 
-Process::Process(const char* processName, int priority, const char* programFile, int arrivalTime) {
-  this->processName = strcpy(new char[strlen(processName) + 1], processName);
-  this->programFile = strcpy(new char[strlen(programFile) + 5], programFile);
-  // +5: 1 for \0 character 4 for .txt
-  this->programFile = strcat(this->programFile, ".txt");
+Process::Process(const std::string & processName, int priority, const std::string & programFile, int arrivalTime) {
+  this->processName = processName;
+  this->programFile = programFile;
+  this->programFile += ".txt";
   this->priority = priority;
   this->arrivalTime = arrivalTime;
   this->instructionReader = new InstructionReader(this->programFile);
@@ -17,36 +15,61 @@ Process::Process(const char* processName, int priority, const char* programFile,
 
 Process::~Process() {
   delete this->instructionReader;
-  delete[] this->processName;
-  delete[] this->programFile;
 }
 
 int Process::next(int & currentTime) {
   Instruction* instruction = this->instructionReader->next();
-  int result = instruction->run(currentTime);
+  int result = instruction->run(currentTime, this->runningTime);
   ++this->programCounter;
   delete instruction;
+  if (result == 1) {
+    this->finishTime = currentTime;
+  }
   return result;
   // result=1 means exit, 0 means o/w
 }
 
-std::istream& operator>>(std::istream & in, Process & process) {
-  return in >> process.processName >> process.priority >> process.programFile >> process.arrivalTime;
+bool Process::arrive(int & currentTime) {
+  return this->arrivalTime <= currentTime;
 }
-std::istream& operator>>(std::istream & in, Process* & process) {
-  process = new Process;
-  return in >> process;
+
+void Process::waitForArrival(int & currentTime) {
+  if (this->arrivalTime > currentTime) {
+    currentTime = this->arrivalTime;
+  }
+}
+
+std::istream& operator>>(std::istream & in, Process & process) {
+  in >> process.processName >> process.priority >> process.programFile >> process.arrivalTime;
+  process.programFile += ".txt";
+  process.instructionReader = new InstructionReader(process.programFile);
+  return in;
 }
 std::ostream& operator<<(std::ostream & out, const Process & process) {
   return out << process.processName << "[" << process.programCounter + 1 << "]";
 }
-std::ostream& operator<<(std::ostream & out, const Process* & process) {
-  return out << *process;
-}
 bool operator<(Process & processA, Process & processB) {
-  if (processA.priority === processB.priority) {
-    return processA.arrivalTime < processB.arrivalTime;
+  // is processA is less prioritized than processB
+  if (processA.priority == processB.priority) {
+    return processA.arrivalTime > processB.arrivalTime;
+    // higher arrivalTime is less prioritized
   }
-  return processA.priority < processB.priority;
+  return processA.priority > processB.priority;
+  // higher priority is less prioritized
 }
 
+std::string Process::getProcessName() {
+  return this->processName;
+}
+
+int Process::getWaitingTime() {
+  return this->getTurnaroundTime() - this->runningTime;
+}
+
+int Process::getTurnaroundTime() {
+  return this->finishTime - this->arrivalTime;
+}
+
+bool Process::Compare::operator()(Process * processA, Process * processB) {
+  return *processA < *processB;
+}

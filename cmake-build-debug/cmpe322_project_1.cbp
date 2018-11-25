@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/cmpe322_project_1">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
 		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/main.cpp">
 			<Option target="cmpe322_project_1"/>
 		</Unit>
@@ -103,6 +106,30 @@
 			<Option target="cmpe322_project_1"/>
 		</Unit>
 		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/process.h">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/processReader.cpp">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/processReader.h">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/processScheduler.cpp">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/processScheduler.h">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/readyQueue.cpp">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/readyQueue.h">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/simulation.cpp">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/simulation.h">
 			<Option target="cmpe322_project_1"/>
 		</Unit>
 		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/CMakeLists.txt">

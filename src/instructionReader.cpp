@@ -4,7 +4,7 @@
 
 #include "instructionReader.h"
 
-InstructionReader::InstructionReader(const char * programPath) {
+InstructionReader::InstructionReader(const std::string & programPath) {
   this->programStream.open(programPath, std::ifstream::in);
 }
 
@@ -14,6 +14,7 @@ InstructionReader::~InstructionReader() {
 
 Instruction* InstructionReader::next() {
   Instruction* instruction;
-  this->programStream >> instruction;
+  instruction = new Instruction;
+  this->programStream >> *instruction;
   return instruction;
 }

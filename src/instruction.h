@@ -6,20 +6,19 @@
 #define CMPE322_PROJECT_1_INSTRUCTION_H
 
 #include <iostream>
+#include <string>
 
 class Instruction {
 private:
-  char* name,
-  int executionTime;
+  std::string name;
+  int executionTime = -1;
 public:
-  Instruction() = default;
-  Instruction(const char*, int);
-  ~Instruction();
-  int run(int &);
+  Instruction() = default; // to be used by istream with pointer only
+  Instruction(const std::string &, int);
+  ~Instruction() = default;
+  int run(int &, int &);
   friend std::istream& operator>>(std::istream&, Instruction &);
-  friend std::istream& operator>>(std::istream&, Instruction* &);
   friend std::ostream& operator<<(std::ostream&, const Instruction &);
-  friend std::ostream& operator<<(std::ostream&, const Instruction* &);
 };
 
 

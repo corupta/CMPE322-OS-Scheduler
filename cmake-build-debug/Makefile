@@ -231,6 +231,114 @@ src/process.cpp.s:
 	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/process.cpp.s
 .PHONY : src/process.cpp.s
 
+src/processReader.o: src/processReader.cpp.o
+
+.PHONY : src/processReader.o
+
+# target to build an object file
+src/processReader.cpp.o:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o
+.PHONY : src/processReader.cpp.o
+
+src/processReader.i: src/processReader.cpp.i
+
+.PHONY : src/processReader.i
+
+# target to preprocess a source file
+src/processReader.cpp.i:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.i
+.PHONY : src/processReader.cpp.i
+
+src/processReader.s: src/processReader.cpp.s
+
+.PHONY : src/processReader.s
+
+# target to generate assembly for a file
+src/processReader.cpp.s:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.s
+.PHONY : src/processReader.cpp.s
+
+src/processScheduler.o: src/processScheduler.cpp.o
+
+.PHONY : src/processScheduler.o
+
+# target to build an object file
+src/processScheduler.cpp.o:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/processScheduler.cpp.o
+.PHONY : src/processScheduler.cpp.o
+
+src/processScheduler.i: src/processScheduler.cpp.i
+
+.PHONY : src/processScheduler.i
+
+# target to preprocess a source file
+src/processScheduler.cpp.i:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/processScheduler.cpp.i
+.PHONY : src/processScheduler.cpp.i
+
+src/processScheduler.s: src/processScheduler.cpp.s
+
+.PHONY : src/processScheduler.s
+
+# target to generate assembly for a file
+src/processScheduler.cpp.s:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/processScheduler.cpp.s
+.PHONY : src/processScheduler.cpp.s
+
+src/readyQueue.o: src/readyQueue.cpp.o
+
+.PHONY : src/readyQueue.o
+
+# target to build an object file
+src/readyQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.o
+.PHONY : src/readyQueue.cpp.o
+
+src/readyQueue.i: src/readyQueue.cpp.i
+
+.PHONY : src/readyQueue.i
+
+# target to preprocess a source file
+src/readyQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.i
+.PHONY : src/readyQueue.cpp.i
+
+src/readyQueue.s: src/readyQueue.cpp.s
+
+.PHONY : src/readyQueue.s
+
+# target to generate assembly for a file
+src/readyQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.s
+.PHONY : src/readyQueue.cpp.s
+
+src/simulation.o: src/simulation.cpp.o
+
+.PHONY : src/simulation.o
+
+# target to build an object file
+src/simulation.cpp.o:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/simulation.cpp.o
+.PHONY : src/simulation.cpp.o
+
+src/simulation.i: src/simulation.cpp.i
+
+.PHONY : src/simulation.i
+
+# target to preprocess a source file
+src/simulation.cpp.i:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/simulation.cpp.i
+.PHONY : src/simulation.cpp.i
+
+src/simulation.s: src/simulation.cpp.s
+
+.PHONY : src/simulation.s
+
+# target to generate assembly for a file
+src/simulation.cpp.s:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/simulation.cpp.s
+.PHONY : src/simulation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +360,18 @@ help:
 	@echo "... src/process.o"
 	@echo "... src/process.i"
 	@echo "... src/process.s"
+	@echo "... src/processReader.o"
+	@echo "... src/processReader.i"
+	@echo "... src/processReader.s"
+	@echo "... src/processScheduler.o"
+	@echo "... src/processScheduler.i"
+	@echo "... src/processScheduler.s"
+	@echo "... src/readyQueue.o"
+	@echo "... src/readyQueue.i"
+	@echo "... src/readyQueue.s"
+	@echo "... src/simulation.o"
+	@echo "... src/simulation.i"
+	@echo "... src/simulation.s"
 .PHONY : help
 
 

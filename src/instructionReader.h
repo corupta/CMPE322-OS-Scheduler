@@ -6,13 +6,14 @@
 #define CMPE322_PROJECT_1_INSTRUCTIONREADER_H
 
 #include <fstream>
+#include <string>
 #include "instruction.h"
 
 class InstructionReader {
 private:
   std::ifstream programStream;
 public:
-  InstructionReader(const char*);
+  explicit InstructionReader(const std::string &);
   ~InstructionReader();
   Instruction* next();
 };
