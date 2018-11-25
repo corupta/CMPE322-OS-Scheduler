@@ -70,22 +70,9 @@ CMakeFiles/cmpe322_project_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmpe322_project_1.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corupta/CLionProjects/cmpe322-project-1/main.cpp -o CMakeFiles/cmpe322_project_1.dir/main.cpp.s
 
-CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o: CMakeFiles/cmpe322_project_1.dir/flags.make
-CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o: ../src/instructionReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o -c /home/corupta/CLionProjects/cmpe322-project-1/src/instructionReader.cpp
-
-CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corupta/CLionProjects/cmpe322-project-1/src/instructionReader.cpp > CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.i
-
-CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corupta/CLionProjects/cmpe322-project-1/src/instructionReader.cpp -o CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.s
-
 CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.o: CMakeFiles/cmpe322_project_1.dir/flags.make
 CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.o: ../src/instruction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.o -c /home/corupta/CLionProjects/cmpe322-project-1/src/instruction.cpp
 
 CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.i: cmake_force
@@ -95,6 +82,19 @@ CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.i: cmake_force
 CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corupta/CLionProjects/cmpe322-project-1/src/instruction.cpp -o CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.s
+
+CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o: CMakeFiles/cmpe322_project_1.dir/flags.make
+CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o: ../src/instructionReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o -c /home/corupta/CLionProjects/cmpe322-project-1/src/instructionReader.cpp
+
+CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corupta/CLionProjects/cmpe322-project-1/src/instructionReader.cpp > CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.i
+
+CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corupta/CLionProjects/cmpe322-project-1/src/instructionReader.cpp -o CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.s
 
 CMakeFiles/cmpe322_project_1.dir/src/process.cpp.o: CMakeFiles/cmpe322_project_1.dir/flags.make
 CMakeFiles/cmpe322_project_1.dir/src/process.cpp.o: ../src/process.cpp
@@ -109,22 +109,9 @@ CMakeFiles/cmpe322_project_1.dir/src/process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmpe322_project_1.dir/src/process.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corupta/CLionProjects/cmpe322-project-1/src/process.cpp -o CMakeFiles/cmpe322_project_1.dir/src/process.cpp.s
 
-CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o: CMakeFiles/cmpe322_project_1.dir/flags.make
-CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o: ../src/processReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o -c /home/corupta/CLionProjects/cmpe322-project-1/src/processReader.cpp
-
-CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corupta/CLionProjects/cmpe322-project-1/src/processReader.cpp > CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.i
-
-CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corupta/CLionProjects/cmpe322-project-1/src/processReader.cpp -o CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.s
-
 CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.o: CMakeFiles/cmpe322_project_1.dir/flags.make
 CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.o: ../src/readyQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.o -c /home/corupta/CLionProjects/cmpe322-project-1/src/readyQueue.cpp
 
 CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.i: cmake_force
@@ -134,6 +121,19 @@ CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.i: cmake_force
 CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corupta/CLionProjects/cmpe322-project-1/src/readyQueue.cpp -o CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.s
+
+CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o: CMakeFiles/cmpe322_project_1.dir/flags.make
+CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o: ../src/processReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o -c /home/corupta/CLionProjects/cmpe322-project-1/src/processReader.cpp
+
+CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corupta/CLionProjects/cmpe322-project-1/src/processReader.cpp > CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.i
+
+CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corupta/CLionProjects/cmpe322-project-1/src/processReader.cpp -o CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.s
 
 CMakeFiles/cmpe322_project_1.dir/src/processScheduler.cpp.o: CMakeFiles/cmpe322_project_1.dir/flags.make
 CMakeFiles/cmpe322_project_1.dir/src/processScheduler.cpp.o: ../src/processScheduler.cpp
@@ -164,11 +164,11 @@ CMakeFiles/cmpe322_project_1.dir/src/simulation.cpp.s: cmake_force
 # Object files for target cmpe322_project_1
 cmpe322_project_1_OBJECTS = \
 "CMakeFiles/cmpe322_project_1.dir/main.cpp.o" \
-"CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o" \
 "CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.o" \
+"CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o" \
 "CMakeFiles/cmpe322_project_1.dir/src/process.cpp.o" \
-"CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o" \
 "CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.o" \
+"CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o" \
 "CMakeFiles/cmpe322_project_1.dir/src/processScheduler.cpp.o" \
 "CMakeFiles/cmpe322_project_1.dir/src/simulation.cpp.o"
 
@@ -176,11 +176,11 @@ cmpe322_project_1_OBJECTS = \
 cmpe322_project_1_EXTERNAL_OBJECTS =
 
 cmpe322_project_1: CMakeFiles/cmpe322_project_1.dir/main.cpp.o
-cmpe322_project_1: CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o
 cmpe322_project_1: CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.o
+cmpe322_project_1: CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o
 cmpe322_project_1: CMakeFiles/cmpe322_project_1.dir/src/process.cpp.o
-cmpe322_project_1: CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o
 cmpe322_project_1: CMakeFiles/cmpe322_project_1.dir/src/readyQueue.cpp.o
+cmpe322_project_1: CMakeFiles/cmpe322_project_1.dir/src/processReader.cpp.o
 cmpe322_project_1: CMakeFiles/cmpe322_project_1.dir/src/processScheduler.cpp.o
 cmpe322_project_1: CMakeFiles/cmpe322_project_1.dir/src/simulation.cpp.o
 cmpe322_project_1: CMakeFiles/cmpe322_project_1.dir/build.make

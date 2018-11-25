@@ -38,10 +38,12 @@ bool ProcessScheduler::next(int & currentTime) {
   }
   Process* nextProcess;
   nextProcess = this->processReader->next(currentTime);
-  if (nextProcess != nullptr) {
+  while (nextProcess != nullptr) {
     this->readyQueue->push(nextProcess);
     this->processList.push_back(nextProcess);
+
     queueChanged = true;
+    nextProcess = this->processReader->next(currentTime);
   }
   if (this->currentProcess == nullptr) {
     this->currentProcess = this->readyQueue->pop();
@@ -51,14 +53,19 @@ bool ProcessScheduler::next(int & currentTime) {
       queueChanged = true;
   }
   if (this->currentProcess == nullptr) {
-    this->currentProcess = this->processReader->skipToNext(currentTime);
+    nextProcess = this->processReader->skipToNext(currentTime);
+    while (nextProcess != nullptr) {
+      this->readyQueue->push(nextProcess);
+      this->processList.push_back(nextProcess);
+
+      queueChanged = true;
+      nextProcess = this->processReader->next(currentTime);
+    }
+    this->currentProcess = this->readyQueue->pop();
     if (this->currentProcess == nullptr) {
       // if there's no current process and no more processes in both readyQueue and processReader
       // then, set finished flag of process scheduler to true;
       this->finished = true;
-    } else {
-      queueChanged = true;
-      this->processList.push_back(this->currentProcess);
     }
   }
   return queueChanged;

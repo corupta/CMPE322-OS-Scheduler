@@ -84,9 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/cmpe322_project_1">
-			<Option target="cmpe322_project_1"/>
-		</Unit>
 		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/main.cpp">
 			<Option target="cmpe322_project_1"/>
 		</Unit>

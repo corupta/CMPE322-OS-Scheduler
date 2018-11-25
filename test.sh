@@ -12,8 +12,11 @@ rm test_output.txt
 ./build.sh
 
 cd "Provided Files"
-../cmpe322_project_1 ../test_output.txt
-DIFF=$(diff output.txt ../test_output.txt)
+mv output.txt original_output.txt
+../cmpe322_project_1
+DIFF=$(diff output.txt ../original_output.txt)
+mv output.txt ../test_output.txt
+mv original_output.txt output.txt
 cd ..
 if [ -z "$DIFF" ]; then
     echo "New Output is identical to the provided one. Test is successful!"

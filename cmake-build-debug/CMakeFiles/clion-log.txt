@@ -1,4 +1,4 @@
 /home/corupta/Programs/Data/CLion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/corupta/CLionProjects/cmpe322-project-1
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/corupta/CLionProjects/cmpe322-project-1
+-- Build files have been written to: /home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug

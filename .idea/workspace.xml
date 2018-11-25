@@ -15,10 +15,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbab43c3-b0d4-4c09-b424-29fa23a7de9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/custom_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmpe322_project_1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmpe322_project_1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmpe322_project_1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmpe322_project_1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmpe322_project_1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmpe322_project_1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmpe322_project_1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmpe322_project_1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processScheduler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/processScheduler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -44,37 +50,41 @@
           <entry key="Makefile" value="2" />
           <entry key="cbp" value="1" />
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="75" />
+          <entry key="cpp" value="78" />
           <entry key="gitignore" value="2" />
           <entry key="h" value="63" />
-          <entry key="sh" value="6" />
+          <entry key="md" value="1" />
+          <entry key="sh" value="7" />
           <entry key="test (output to stdout) (disassembly)" value="4" />
-          <entry key="txt" value="22" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeCache.txt" value="2" />
-          <entry key="CMakeLists.txt" value="5" />
+          <entry key="CMakeLists.txt" value="6" />
           <entry key="Disassembly" value="4" />
-          <entry key="ObjectiveC" value="138" />
-          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="Markdown" value="1" />
+          <entry key="ObjectiveC" value="141" />
+          <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="13627" />
+          <entry key="cpp" value="14240" />
           <entry key="gitignore" value="79" />
           <entry key="h" value="3301" />
-          <entry key="sh" value="1367" />
+          <entry key="md" value="2104" />
+          <entry key="sh" value="1492" />
           <entry key="txt" value="735" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="722" />
-          <entry key="ObjectiveC" value="16928" />
-          <entry key="PLAIN_TEXT" value="1459" />
+          <entry key="Markdown" value="2104" />
+          <entry key="ObjectiveC" value="17541" />
+          <entry key="PLAIN_TEXT" value="1584" />
         </counts>
       </usages-collector>
     </session>
@@ -82,24 +92,45 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sh">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="240">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="375">
+                <caret line="25" selection-start-line="25" selection-end-line="25" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/processScheduler.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -140,7 +171,6 @@
         <option value="$PROJECT_DIR$/src/mainSimulation.cpp" />
         <option value="$PROJECT_DIR$/src/instructionReader.h" />
         <option value="$PROJECT_DIR$/src/instructionReader.cpp" />
-        <option value="$PROJECT_DIR$/src/processScheduler.cpp" />
         <option value="$PROJECT_DIR$/src/processReader.cpp" />
         <option value="$PROJECT_DIR$/src/simulation.cpp" />
         <option value="$PROJECT_DIR$/src/instruction.h" />
@@ -152,14 +182,16 @@
         <option value="$PROJECT_DIR$/src/simulation.h" />
         <option value="$PROJECT_DIR$/src/readyQueue.h" />
         <option value="$PROJECT_DIR$/src/readyQueue.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/build.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Provided Files/definition.txt" />
         <option value="$PROJECT_DIR$/Provided Files/output.txt" />
         <option value="$PROJECT_DIR$/run.sh" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/processScheduler.cpp" />
         <option value="$PROJECT_DIR$/test.sh" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -174,6 +206,7 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1920" />
     <option name="y" value="-4" />
     <option name="width" value="1920" />
     <option name="height" value="1084" />
@@ -190,11 +223,6 @@
             <path>
               <item name="cmpe322_project_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="cmpe322-project-1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmpe322_project_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmpe322-project-1" type="462c0819:PsiDirectoryNode" />
-              <item name="Provided Files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,18 +253,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Build All">
+  <component name="RunManager" selected="Application.run production (output to custom_output.txt)">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cmpe322_project_1" RUN_TARGET_NAME="cmpe322_project_1" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="run production (output to out.txt)" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="program_output.txt" WORKING_DIR="file://$PROJECT_DIR$/Provided Files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmpe322_project_1" TARGET_NAME="cmpe322_project_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cmpe322_project_1" RUN_TARGET_NAME="cmpe322_project_1">
+    <configuration name="run production (output to custom_output.txt)" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../custom_output.txt" WORKING_DIR="file://$PROJECT_DIR$/Provided Files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmpe322_project_1" TARGET_NAME="cmpe322_project_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cmpe322_project_1" RUN_TARGET_NAME="cmpe322_project_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test (output to stdout)" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/Provided Files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmpe322_project_1" TARGET_NAME="cmpe322_project_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cmpe322_project_1" RUN_TARGET_NAME="cmpe322_project_1">
+    <configuration name="test (output to stdout)" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="stdout" WORKING_DIR="file://$PROJECT_DIR$/Provided Files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmpe322_project_1" TARGET_NAME="cmpe322_project_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cmpe322_project_1" RUN_TARGET_NAME="cmpe322_project_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -244,7 +272,7 @@
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.test (output to stdout)" />
-      <item itemvalue="Application.run production (output to out.txt)" />
+      <item itemvalue="Application.run production (output to custom_output.txt)" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -258,12 +286,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543099988072</updated>
       <workItem from="1543099990504" duration="7671000" />
-      <workItem from="1543139933981" duration="22077000" />
+      <workItem from="1543139933981" duration="25184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29748000" />
+    <option name="totallyTimeSpent" value="32855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
@@ -275,13 +303,13 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.5052301" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.36192468" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.36192468" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4424686" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4424686" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3294979" />
@@ -403,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/processScheduler.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/simulation.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -468,27 +489,10 @@
     <entry file="file://$PROJECT_DIR$/cmpe322_project_1.cbp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/readyQueue.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeCache.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding>
-            <element signature="e#44#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -499,20 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -530,17 +520,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.sh">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="25" selection-start-line="25" selection-end-line="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/readyQueue.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        <state relative-caret-position="121">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="210">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="33" column="78" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
+          <folding>
+            <element signature="e#44#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processScheduler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
         </state>
       </provider>
     </entry>
