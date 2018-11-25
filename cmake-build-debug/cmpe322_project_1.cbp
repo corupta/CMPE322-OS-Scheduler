@@ -87,6 +87,24 @@
 		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/main.cpp">
 			<Option target="cmpe322_project_1"/>
 		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/instruction.cpp">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/instruction.h">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/instructionReader.cpp">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/instructionReader.h">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/process.cpp">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
+		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/src/process.h">
+			<Option target="cmpe322_project_1"/>
+		</Unit>
 		<Unit filename="/home/corupta/CLionProjects/cmpe322-project-1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

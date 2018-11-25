@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/corupta/CLionProjects/cmpe322-project-1/main.cpp" "/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles/cmpe322_project_1.dir/main.cpp.o"
+  "/home/corupta/CLionProjects/cmpe322-project-1/src/instruction.cpp" "/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.o"
+  "/home/corupta/CLionProjects/cmpe322-project-1/src/instructionReader.cpp" "/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o"
+  "/home/corupta/CLionProjects/cmpe322-project-1/src/process.cpp" "/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles/cmpe322_project_1.dir/src/process.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

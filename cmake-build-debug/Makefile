@@ -150,6 +150,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/instruction.o: src/instruction.cpp.o
+
+.PHONY : src/instruction.o
+
+# target to build an object file
+src/instruction.cpp.o:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.o
+.PHONY : src/instruction.cpp.o
+
+src/instruction.i: src/instruction.cpp.i
+
+.PHONY : src/instruction.i
+
+# target to preprocess a source file
+src/instruction.cpp.i:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.i
+.PHONY : src/instruction.cpp.i
+
+src/instruction.s: src/instruction.cpp.s
+
+.PHONY : src/instruction.s
+
+# target to generate assembly for a file
+src/instruction.cpp.s:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/instruction.cpp.s
+.PHONY : src/instruction.cpp.s
+
+src/instructionReader.o: src/instructionReader.cpp.o
+
+.PHONY : src/instructionReader.o
+
+# target to build an object file
+src/instructionReader.cpp.o:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.o
+.PHONY : src/instructionReader.cpp.o
+
+src/instructionReader.i: src/instructionReader.cpp.i
+
+.PHONY : src/instructionReader.i
+
+# target to preprocess a source file
+src/instructionReader.cpp.i:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.i
+.PHONY : src/instructionReader.cpp.i
+
+src/instructionReader.s: src/instructionReader.cpp.s
+
+.PHONY : src/instructionReader.s
+
+# target to generate assembly for a file
+src/instructionReader.cpp.s:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/instructionReader.cpp.s
+.PHONY : src/instructionReader.cpp.s
+
+src/process.o: src/process.cpp.o
+
+.PHONY : src/process.o
+
+# target to build an object file
+src/process.cpp.o:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/process.cpp.o
+.PHONY : src/process.cpp.o
+
+src/process.i: src/process.cpp.i
+
+.PHONY : src/process.i
+
+# target to preprocess a source file
+src/process.cpp.i:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/process.cpp.i
+.PHONY : src/process.cpp.i
+
+src/process.s: src/process.cpp.s
+
+.PHONY : src/process.s
+
+# target to generate assembly for a file
+src/process.cpp.s:
+	$(MAKE) -f CMakeFiles/cmpe322_project_1.dir/build.make CMakeFiles/cmpe322_project_1.dir/src/process.cpp.s
+.PHONY : src/process.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +243,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/instruction.o"
+	@echo "... src/instruction.i"
+	@echo "... src/instruction.s"
+	@echo "... src/instructionReader.o"
+	@echo "... src/instructionReader.i"
+	@echo "... src/instructionReader.s"
+	@echo "... src/process.o"
+	@echo "... src/process.i"
+	@echo "... src/process.s"
 .PHONY : help
 
 
