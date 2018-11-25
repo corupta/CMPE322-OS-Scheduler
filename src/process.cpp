@@ -29,7 +29,7 @@ int Process::next(int & currentTime) {
   // result=1 means exit, 0 means o/w
 }
 
-bool Process::arrive(int & currentTime) {
+bool Process::arrive(const int & currentTime) {
   return this->arrivalTime <= currentTime;
 }
 

@@ -1,13 +1,9 @@
 # CMPE322-OS-Scheduler
 
 ### Simulating a Preemptive Priority Scheduling
+### Created by Halit Özsoy - 2016400141
 
 ## Project Details
-
-That's a project I've created at university homework for the course, 
-CMPE 322 - Operating Systems on Nov 25th, 2018
-
-What the project is about can be found via [Project1.pdf](./Project1.pdf)
 
 In summary, the objective was to create a process scheduling simulator for a one core/one cpu environment such that,
 
@@ -270,5 +266,4 @@ It's developed in `C++11` so it needs to compile using that version.
 The program is designed to be mainly used in linux environment, but since it is built with cmake it can be compiled and run in Windows/MacOS environments, too.
 
 Also, I've changed the default `CMakeLists.txt` to increase it's readability, and lowered its minimum version and added extra flags to support older versions of `Linux`, `cmake` and `make`
-
 

@@ -43,7 +43,7 @@ void ProcessReader::readNext() {
   }
 }
 
-Process* ProcessReader::next(int & currentTime) {
+Process* ProcessReader::next(const int & currentTime) {
   Process * returnProcess = nullptr;
   if (this->nextProcess == nullptr) {
     // if there's no process read, waiting to arrive read next

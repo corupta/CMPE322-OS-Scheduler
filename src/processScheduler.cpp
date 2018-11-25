@@ -17,9 +17,8 @@ ProcessScheduler::~ProcessScheduler() {
   if (this->readyQueue != nullptr) {
     delete this->readyQueue;
   }
-  if (this->currentProcess != nullptr) {
-    delete this->currentProcess;
-  }
+  this->currentProcess = nullptr;
+  // IMPORTANT don't delete currentProcess as it is deleted from processList, below, instead set it to nullptr.
   for (auto processIterator = this->processList.begin();  processIterator != this->processList.end(); ++processIterator) {
     delete (*processIterator);
   }

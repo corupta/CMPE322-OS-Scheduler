@@ -24,7 +24,7 @@ public:
   Process(const std::string &, int, const std::string &, int);
   ~Process();
   int next(int &);
-  bool arrive(int &); // returns true if the process should be arrived by now
+  bool arrive(const int &); // returns true if the process should be arrived by now
   void waitForArrival(int &); // skip time to process' arrival
   friend std::istream& operator>>(std::istream&, Process &);
   friend std::ostream& operator<<(std::ostream&, const Process &);

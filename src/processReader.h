@@ -14,11 +14,11 @@ private:
   std::ifstream processStream;
   Process* nextProcess;
   std::string lastProcessName = "";
-  void readNext(); // used to read next process
+  void readNext(); // internally used to read next process onto nextProcess buffer
 public:
   explicit ProcessReader(const std::string &);
   ~ProcessReader();
-  Process* next(int &); // returns next arrived process or null
+  Process* next(const int &); // returns next arrived process or null
   Process* skipToNext(int &); // wait until next process arrives;
 };
 

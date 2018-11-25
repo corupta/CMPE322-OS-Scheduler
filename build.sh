@@ -16,6 +16,5 @@ echo "Successfully built cmpe322_project_1, deleting intermediary build files an
 rm -r CMakeFiles
 rm cmake_install.cmake
 rm CMakeCache.txt
-rm cmpe322_project_1.cbp
 rm Makefile
 echo "Deleted intermediary files, "

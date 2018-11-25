@@ -14,7 +14,7 @@ rm test_output.txt
 cd "Provided Files"
 mv output.txt original_output.txt
 ../cmpe322_project_1
-DIFF=$(diff output.txt ../original_output.txt)
+DIFF=$(diff output.txt original_output.txt)
 mv output.txt ../test_output.txt
 mv original_output.txt output.txt
 cd ..
