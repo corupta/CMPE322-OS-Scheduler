@@ -3,3 +3,6 @@ cmake-build-debug
 
 # executable
 cmpe322_project_1
+
+# editor specific
+.idea

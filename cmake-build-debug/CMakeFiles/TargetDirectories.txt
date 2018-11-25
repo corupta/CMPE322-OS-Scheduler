@@ -1,3 +1,0 @@
-/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/corupta/CLionProjects/cmpe322-project-1/cmake-build-debug/CMakeFiles/cmpe322_project_1.dir
